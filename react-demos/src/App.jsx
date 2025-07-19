@@ -1,15 +1,15 @@
 import React from "react";
-import DataFetch from "./components/04_UseEffect/DataFetch";
-import Practise5 from "./components/04_UseEffect/Practise5";
-import Practise6 from "./components/04_UseEffect/Practise6";
+import UserProfile from "./components/06_Context-Api/UserProfile";
+import { UserProvider } from "./components/06_Context-Api/UserContext";
+import UpdateUser from "./components/06_Context-Api/UpdateUser";
 
 function App() {
   return (
-    <div>
-      
-      <Practise5 />
-      <Practise6 />
-    </div>
+    // Wrap everything in UserProvider to share user info
+    <UserProvider>
+      <UserProfile />
+      <UpdateUser />
+    </UserProvider>
   );
 }
 
