@@ -1,13 +1,9 @@
 import React from "react";
-import UserProfile from "./components/06_Context-Api/UserProfile";
-import { UserProvider } from "./components/06_Context-Api/UserContext";
-import UpdateUser from "./components/06_Context-Api/UpdateUser";
-import { useReducer } from "react";
-import Practice6 from "./components/07_UseReducer/Practice6";
+import Counter from "./components/09_Projects/01_Counter/Counter";
 
 function App() {
   return (
-    <Practice6 />
+    <Counter />
   );
 }
 
