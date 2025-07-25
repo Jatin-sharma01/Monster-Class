@@ -1,6 +1,6 @@
 import React, { use } from 'react'
 import { useState, useEffect } from 'react';
-import "./Meals.css"
+import "./Meals.css";
 import axios from "axios";
 
 const Meals = () => {
