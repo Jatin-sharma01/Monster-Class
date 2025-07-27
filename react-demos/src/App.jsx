@@ -1,9 +1,11 @@
 import React from "react";
-import ToggleBackground from "./components/09_Projects/05_ToggleBg/ToggleBackground";
+
+import HiddenSearchBar from "./components/09_Projects/06_HiddenSearchBar/HiddenSearchBar";
+
 
 function App() {
   return (
-    <ToggleBackground />
+    <HiddenSearchBar />
   );
 }
 
