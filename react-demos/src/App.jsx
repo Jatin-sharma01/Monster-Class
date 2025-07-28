@@ -1,11 +1,11 @@
 import React from "react";
+import Testimonials from "./components/09_Projects/07_Testimonials/Testimonials";
 
-import HiddenSearchBar from "./components/09_Projects/06_HiddenSearchBar/HiddenSearchBar";
 
 
 function App() {
   return (
-    <HiddenSearchBar />
+    <Testimonials />
   );
 }
 
