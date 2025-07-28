@@ -38,14 +38,14 @@ const Form = () => {
         setErroPassword("")
         setPasswordColor("green")
       } else {
-        setErroPassword(" Password length should be 8 letters long")
+        setErroPassword(" Password length should be 8 letters long.")
         setPasswordColor("red")
       }
       if( password !== "" && password == confirmPassword) {
         setErrorConfirmPassword("")
         setConfirmPasswordColor("green")
       } else{
-        setErrorConfirmPassword("Password Does not match")
+        setErrorConfirmPassword("Password Does not match.")
         setConfirmPasswordColor("red")
       }
     
